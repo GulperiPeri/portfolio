@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -14,10 +15,15 @@ body {
 }
 
 .container {
-  float: left;
+  /*float: left;*/
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
 }
 
 .header a {
@@ -35,7 +41,7 @@ body {
 }
 
 .header-logo {
-  float: left;
+  /*float: left;*/
   width: 20%;
   margin-right: 200px;
 }
@@ -71,4 +77,44 @@ body {
 
 .menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.container-intro {
+  padding: 30px 60px;
+}
+.container-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-left {
+  width: 30%;
+}
+
+.container-right {
+  width: 50%;
+}
+
+.container-img {
+  width: 250;
+  height: 250;
+  border-radius: 50%;
+}
+
+.container-right-text h1,
+.container-right-text h2,
+.container-right-text p {
+  margin: 0 0 10;
+  color: blue;
+}
+
+.container-contacts ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
