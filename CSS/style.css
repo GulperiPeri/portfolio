@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -14,10 +15,15 @@ body {
 }
 
 .container {
-  float: left;
+  /*float: left;*/
   width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
 }
 
 .header a {
@@ -27,15 +33,14 @@ body {
 
 .header-navigation {
   display: flex;
-  justify-content: fspace between;
-  align-items: center;
-  background-color: #1450e7;
-  color: rgb(7, 7, 7);
+  justify-content: space-between;
+  background-color: rgb(180, 56, 114);
+  color: black;
   padding: 5px;
 }
 
 .header-logo {
-  float: left;
+  /*float: left;*/
   width: 20%;
   margin-right: 200px;
 }
@@ -70,5 +75,199 @@ body {
 }
 
 .menu-link:hover {
-  background-color: var(--accent-light);
+  background-color: rgb(180, 56, 114);
+}
+
+.container-intro {
+  padding: 30px 60px;
+}
+.container-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-left {
+  width: 20%;
+}
+
+.container-right {
+  width: 50%;
+}
+
+.container-img {
+  width: 250;
+  height: 250;
+  border-radius: 50%;
+}
+
+.container-right-text h1,
+.container-right-text h2,
+.container-right-text p {
+  margin: 0 0 10;
+  color: blue;
+}
+
+.container-contacts ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 60px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: #1450e7;
+}
+
+.container-personal-data {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding: 0 15px;
+  background-color: rgb(180, 56, 114);
+  border-radius: 5px;
+  color: black;
+  padding: 15px;
+}
+
+.container-personal-data p {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: black;
+}
+
+.container-core-competencies {
+  width: 50%;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.core-competencies ul {
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+  text-align: left;
+}
+
+.skills {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgb(180, 56, 114);
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 15 15px;
+  background-color: aqua;
+  border-radius: 3px;
+}
+
+.code {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.portfolio {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgb(180, 56, 114);
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.portfolio ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio li {
+  padding: 15 15px;
+  background-color: aqua;
+  border-radius: 3px;
+}
+
+.experience {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.education {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgb(180, 56, 114);
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.education ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.languages {
+  width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: aqua;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.table th {
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(180, 56, 114);
+}
+
+.table td {
+  border: 1px solid rgb(180, 56, 114);
+  text-align: center;
+}
+
+.footer {
+  width: 50%;
+  padding: 10px;
+  margin: 0 auto;
+  color: black;
+  background-color: rgb(180, 56, 114);
+  border-radius: 5px;
+  margin-bottom: 60px;
+  text-align: center;
 }
